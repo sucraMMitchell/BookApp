@@ -1,11 +1,7 @@
-/**
- * Pull book text from online using Socket, BufferedReader, and BufferedWriter classes.
- * Stores the book text in book class fields.
- *
- *
- *
- **/
 
-class Webscrape extends Book{
+class WebScrape extends Book {
 
+    public WebScrape(String title, String author, String description, int totalPages, Book books) {
+        super(title, author, description, totalPages, books);
+    }
 }
