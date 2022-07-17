@@ -1,50 +1,103 @@
 import java.util.Date;
-import java.util.*;
 import java.lang.*;
+import java.util.Collections;
+import java.util.HashMap;
+
+/**
+ *
+ * Class containing data fields for a book.
+ *
+ * **/
 
 public class Book {
+    int ISBN; //international standard book number
+    int totalPages;
     String title;
     String author;
     String description;
-    int totalPages;
     Date published;
-    List<Book> books = new ArrayList<Book>();;
 
+    Map<Integer, String> book = new HashMap<Integer, String>();
 
-    public Book(String title, String author, String description, int totalPages, Book books){
+    /**
+     * Store ISBN and title in map
+     * **/
+    public void addBook(int ISBN, String title) {
+        if(title.length() > 0){
+            book.put(ISBN, title);
+            System.out.println("Book" + title + "has been added to map");
+            System.out.println(book);
+        }
+    }
+
+    public Book(String ISBN){
+        this.ISBN = ISBN;
+    }
+
+    public Book(String title){
+        this.title = title;
+    }
+
+    public Book(String title, String author){
+        this.title = title;
+        this.author = author;
+    }
+
+    public Book(String title, String author, String description, int totalPages){
         this.title = title;
         this.author = author;
         this.description = description;
         this.totalPages = totalPages;
         published = new Date();
     }
-    public void searchPageNum(int pageNum){} //find page number
-    public void searchWord(String word){} //find word on page
-    public String searchDefinition(String word){String definition =""; return definition; } //find word definition using web scrape class
-    public String searchRoot(String word){String root =""; return root; } //find root word using web scrape class
 
-    /**
-     * Search for book by title or author in the array list of books.
-     **/
-    public Book getBook(String title, String author){
-        for(Book book: books) {
-            if(book.title.equals(title)) {
-                return (book);
-            }else if(book.author.equals(author)){
-                return (book);
-            }
-        }
-        return null;
-    }
-    public void addBook(String title, String author, String description, int totalPages, Book books){
-        if (title != null && author != null && description != null) {
-            books.add(title);
-            books.add(author);
-            books.add(description);
-        }
+    public int getISBN() {
+        return ISBN;
     }
 
-    private void add(String title) {
-        this.title= title;
+    public void setISBN(int ISBN){
+        this.ISBN = ISBN;
     }
+
+    public int getTotalPages() {
+        return totalPages;
+    }
+
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Date getPublished() {
+        return published;
+    }
+
+    public void setPublished(Date published) {
+        this.published = published;
+    }
+    //create toString method
+
 }
