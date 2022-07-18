@@ -7,7 +7,7 @@ const Card = ({ book }) => {
     <div className='card-container'>
       <img
         alt={`book ${name}`}
-        src={'/public/book-clipart.png'}
+        src={`book-clipart.png`}
       />
       <h2>{name}</h2>
     </div>

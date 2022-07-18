@@ -30,8 +30,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="app-title">Book App</h1>
-
+      <h1 className="app-title">My Shelf</h1>
       <SearchBox
         className="books-search-box"
         onChangeHandler={onSearchChange}
