@@ -17,18 +17,6 @@ public class Book {
     String description;
     Date published;
 
-    Map<Integer, String> book = new HashMap<Integer, String>();
-
-    /**
-     * Store ISBN and title in map
-     * **/
-    public void addBook(int ISBN, String title) {
-        if(title.length() > 0){
-            book.put(ISBN, title);
-            System.out.println("Book" + title + "has been added to map");
-            System.out.println(book);
-        }
-    }
 
     public Book(String ISBN){
         this.ISBN = ISBN;
