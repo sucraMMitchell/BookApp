@@ -1,11 +1,12 @@
 
 class WebScrape extends Book {
 
-  public WebScrape {
 
-  }
+    public WebScrape {
 
-  public void searchPageNum(String pageNum){} //find page number
+    }
+
+    public void searchPageNum(String pageNum){} //find page number
 
     public void searchWord(String word){}
 
