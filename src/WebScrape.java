@@ -1,6 +1,7 @@
 
 class WebScrape extends Book {
 
+
     public WebScrape {
 
     }

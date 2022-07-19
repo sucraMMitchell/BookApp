@@ -1,27 +1,0 @@
-
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ¯ëüÿÿÿÿ
-}
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "definition".(—µ¢öúÿÿÿÿ
-w
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "root".(î¹İšùÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-l
-java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ç¹´Éùÿÿÿÿ
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Í’éúÿÿÿÿ
-7
-java:S1116"Remove this empty statement.(Æ¯ëüÿÿÿÿ
-G
-java:S1172",Remove this unused method parameter "books".(¤÷—ëÿÿÿÿÿ
-F
-java:S1172"+Remove this unused method parameter "word".(—µ¢öúÿÿÿÿ
-F
-java:S1172"+Remove this unused method parameter "word".(î¹İšùÿÿÿÿ
-g
-java:S1871!"LThis branch's code block is the same as the block for the branch on line 31.(÷„äªüÿÿÿÿ
-G
-java:S1172'"1Remove this unused method parameter "totalPages".(›Ø£
