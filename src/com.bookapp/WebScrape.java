@@ -1,3 +1,4 @@
+package com.bookapp;
 
 class WebScrape extends Book {
 
