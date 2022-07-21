@@ -1,4 +1,4 @@
-package com.bookapp;
+package bookapp;
 
 import java.util.*;
 
@@ -9,6 +9,7 @@ public class Shelf extends MultiMap{
      * Key = ISBN number Value = Title, Author
      **/
     public Shelf(int ISBN, String title, String author){
+        super();
         this.ISBN = ISBN;
         this.title = title;
         this.author = author;

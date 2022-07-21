@@ -1,9 +1,9 @@
-package com.bookapp;
+package bookapp;
 
 import java.util.*;
 
 class MultiMap<K, V>{
-    private Map<K, Collection<V>> map = new HashMap<>();
+    public Map<K, Collection<V>> map = new HashMap<>();
 
 
     public boolean isEmpty(){
