@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec14b3a-3703-4aa7-9e47-cafce7eadc15" name="Changes" comment="ArrayList implemented with getBook and addBook methods.&#10;Testing of ArrayList to follow.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.bookapp/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.bookapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.bookapp/Multimap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Multimap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.bookapp/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Shelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.bookapp/WebScrape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/WebScrape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookapp/bookapp/Multimap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Multimap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookapp/bookapp/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Shelf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2C2XMVMsirJSR4NHBqw5CiyK2RM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,6 +46,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propCompiler"
   },
   "keyToStringList": {
@@ -57,6 +56,14 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="BookApp Program" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_241\jre" />
+      <option name="MAIN_CLASS_NAME" value="bookapp.Main" />
+      <module name="BookApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_241\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
