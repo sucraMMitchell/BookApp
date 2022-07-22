@@ -1,9 +1,10 @@
-package com.bookapp;
+package bookapp;
 
 import java.util.Date;
 import java.lang.*;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  *
@@ -21,6 +22,10 @@ public class Book {
 
     Map<Integer, String> book = new HashMap<Integer, String>();
 
+    public Book() {
+
+    }
+
     /**
      * Store ISBN and title in map
      * **/
@@ -32,7 +37,7 @@ public class Book {
         }
     }
 
-    public Book(String ISBN){
+    public Book(int ISBN){
         this.ISBN = ISBN;
     }
 
@@ -40,7 +45,8 @@ public class Book {
         this.title = title;
     }
 
-    public Book(String title, String author){
+    public Book(int ISBN, String title, String author){
+        this.ISBN = ISBN;
         this.title = title;
         this.author = author;
     }
@@ -63,70 +69,6 @@ public class Book {
 
     public int getTotalPages() {
         return totalPages;
-    }
-
-    public void setTotalPages(int totalPages) {
-        this.totalPages = totalPages;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public Date getPublished() {
-        return published;
-    }
-
-    public void setTotalPages(int totalPages) {
-        this.totalPages = totalPages;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public Date getPublished() {
-        return published;
     }
 
     public void setPublished(Date published) {

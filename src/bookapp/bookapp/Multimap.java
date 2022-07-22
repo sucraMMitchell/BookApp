@@ -1,9 +1,9 @@
-package com.bookapp;
+package bookapp;
 
 import java.util.*;
 
 class MultiMap<K, V>{
-    private Map<K, Collection<V>> map = new HashMap<>();
+    public Map<K, Collection<V>> map = new HashMap<>();
 
 
     public boolean isEmpty(){
@@ -27,7 +27,8 @@ class MultiMap<K, V>{
             map.put(key, new ArrayList<V>());
         }
 
-        map.get(key).add(value1).add(value2);
+        map.get(key).add(value1);
+        map.get(key).add(value2);
     }
 
     /**
@@ -64,7 +65,7 @@ class MultiMap<K, V>{
 
     public boolean remove(K key, V value1, V value2){
         if (map.get(key) != null) // key exists
-            return map.get(key).remove(value1).remove(value2);
+            return map.get(key).remove(value1) && map.get(key).remove(value2);
 
         return false;
     }

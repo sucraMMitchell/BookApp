@@ -1,37 +1,36 @@
-package com.bookapp;
+package bookapp;
 
 import java.util.*;
+import java.util.Collections;
 
-public class Shelf extends MultiMap{
+public class Shelf extends Book {
 
     /**
      * Search for book by ISBN in the hash map of books.
      * Key = ISBN number Value = Title, Author
      **/
     public Shelf(int ISBN, String title, String author){
+        super();
         this.ISBN = ISBN;
         this.title = title;
         this.author = author;
     }
-    MultiMap<Integer, String> mmap = new MultiMap<Integer, String>();
+    MultiMap<Integer, String> shelf = new MultiMap<Integer, String>();
 
     public void addBook(int ISBN, String title, String author){
-        mmap.put(ISBN, title, author);
+        shelf.put(ISBN, title, author);
         System.out.println("Added book" + title + "to map");
     }
     public void removeBook(int ISBN, String title, String author){
-        map.remove(ISBN, title, author);
+        shelf.remove(ISBN, title, author);
         System.out.println("Removed book" + title + " from map");
     }
     public int size(){
-        return mmap.size();
+        return shelf.size();
     }
 
     public boolean containsBook(int ISBN){
-        mmap.containsKey(ISBN);
+       return shelf.containsKey(ISBN);
     }
 
-    public Collection<Collection<Value>>() {
-        return mmap.values();
-    }
 }

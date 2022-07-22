@@ -1,9 +1,9 @@
-package com.bookapp;
+package bookapp;
 
 class WebScrape extends Book {
 
 
-    public WebScrape {
+    public WebScrape() {
 
     }
 
