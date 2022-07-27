@@ -46,9 +46,9 @@ public class Database {
             }try {
                 if(conn!= null){
                     conn.close();
-                }catch(SQLException e2){
-                    e2.printStackTrace();
                 }
+            }catch(SQLException e2){
+                e2.printStackTrace();
             }
         }
     }
