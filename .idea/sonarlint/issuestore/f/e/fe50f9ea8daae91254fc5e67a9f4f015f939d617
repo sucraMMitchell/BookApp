@@ -1,28 +1,0 @@
-
-h
-java:S1192"RDefine a constant instead of duplicating this literal "Input book title:" 3 times.(À‚³‘
-i
-java:S1192"SDefine a constant instead of duplicating this literal "Input book author:" 3 times.(óùµ
-g
-java:S1192"QDefine a constant instead of duplicating this literal "Input book ISBN:" 3 times.(éÍğ©
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãëô’ÿÿÿÿÿ
-U
-java:S1854"":Remove this useless assignment to local variable "author".(¦á­şÿÿÿÿ
-U
-java:S1854":Remove this useless assignment to local variable "author".(¦á­şÿÿÿÿ
-P
-java:S1854":Remove this useless assignment to local variable "author".(‹¿¨š
-N	java:S106"9Replace this use of System.out or System.err by a logger.(éÍğ©
-N	java:S106"9Replace this use of System.out or System.err by a logger.(À‚³‘
-N	java:S106"9Replace this use of System.out or System.err by a logger.(óùµ
-A
-java:S1481"+Remove this unused "author" local variable.(‹¿¨š
-N	java:S106"9Replace this use of System.out or System.err by a logger.(éÍğ©
-N	java:S106"9Replace this use of System.out or System.err by a logger.(À‚³‘
-N	java:S106"9Replace this use of System.out or System.err by a logger.(óùµ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(éÍğ©
-N	java:S106"9Replace this use of System.out or System.err by a logger.(À‚³‘
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(óùµ
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(é¬¦ 
-N	java:S106&"9Replace this use of System.out or System.err by a logger.(‘ğê
-N	java:S106'"9Replace this use of System.out or System.err by a logger.(“µû
