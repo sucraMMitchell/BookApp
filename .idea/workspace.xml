@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec14b3a-3703-4aa7-9e47-cafce7eadc15" name="Changes" comment="ArrayList implemented with getBook and addBook methods.&#10;Testing of ArrayList to follow.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrape/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrape/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrape/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSoup_Scrape/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSoup_Scrape/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrape/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
