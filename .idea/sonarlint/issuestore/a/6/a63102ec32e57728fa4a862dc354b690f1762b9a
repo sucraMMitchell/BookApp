@@ -1,0 +1,16 @@
+
+l
+java:S1192"QUse already-defined constant 'JDBC_DRIVER' instead of duplicating its value here.(¹µÖÁüÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ê‘âµ
+M
+java:S2589/"7Remove this expression which always evaluates to "true"(¡ææú
+M
+java:S2589)"7Remove this expression which always evaluates to "true"(±”Ìï
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡²µ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›“ß©ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”†ìþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿©Ð“
+>	java:S108,")Either remove or fill this block of code.(â•¼Ý
