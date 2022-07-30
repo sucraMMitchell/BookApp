@@ -11,7 +11,7 @@ import org.jsoup.select.Elements;
 class WebScrape extends Book {
 
 
-    public WebScrape() {
+    public WebScrape() throws IOException {
 
     }
 
