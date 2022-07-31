@@ -1,0 +1,16 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(šíòÜ8ÎÌû‹¥0
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ë³úÿÿÿÿ8ÎÌû‹¥0
+r	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·øîóúÿÿÿÿ8ÏÌû‹¥0
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïµ§¹ıÿÿÿÿ8ÏÌû‹¥0
+m	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÃªı8ÏÌû‹¥0
+0
+java:S1700"Rename field "book"(šíòÜ8ĞÌû‹¥0
+s
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ8ÙÌû‹¥0
+p	java:S116"ORename this field "ISBN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÜîùÿÿÿÿ8ÙÌû‹¥0
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(âÕ¼•8ãÌû‹¥0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(äüÃâ8ãÌû‹¥0
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8éÌû‹¥0
