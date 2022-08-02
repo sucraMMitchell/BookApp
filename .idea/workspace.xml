@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aec14b3a-3703-4aa7-9e47-cafce7eadc15" name="Changes" comment="ArrayList implemented with getBook and addBook methods.&#10;Testing of ArrayList to follow.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookapp/bookapp/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookapp/bookapp/WebScrape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookapp/bookapp/WebScrape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
