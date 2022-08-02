@@ -1,4 +1,7 @@
 package bookapp;
+/**
+ * Store user books.
+ * **/
 import java.sql.*;
 import java.sql.DriverManager;
 
