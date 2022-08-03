@@ -10,11 +10,12 @@ how to use the word in sign language. Select a phrase, page, or chapter you woul
 Tech Stack: Java, React, JDBC, JSoup, & PostgreSQL 
 
 Setting up the Stack:
+
 JDK 8 or newer
 
 React
 
-JSoup 
+JSoup: 
 Download core library jar file
 Set class path 
 
