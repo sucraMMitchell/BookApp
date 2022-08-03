@@ -7,12 +7,17 @@ GUI Application that allows user to read their favorite book with important worl
 Select a word on the page to get the root word, multiple definitions, and media(photo or video) on 
 how to use the word in sign language. Select a phrase, page, or chapter you would like to be read aloud.
 
-Tech Stack: Java, React, JDBC, JSoup, etc
+Tech Stack: Java, React, JDBC, JSoup, & PostgreSQL 
 
+Setting up the Stack:
 JDK 8 or newer
 
 React
 
-JSoup (core library) jar file
+JSoup 
+Download core library jar file
+Set class path 
 
 JDBC
+
+PostgreSQL
