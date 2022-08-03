@@ -26,25 +26,35 @@ class WebScrape extends Book {
 
     public void Scrape(String word) {
         Document document;
+
         try{
-            document = Jsoup.connect("https://www.etymonline.com/word/" + word).get();
+            //set proxy ip and port
+            document = Jsoup
+                       .connect("https://www.etymonline.com/word/" + word)
+                       .proxy("127.0.0.1", 8080)
+                       .userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.4; en-US; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2")
+                       .header("Content-Language", "en-US")
+                       .get();
             System.out.println(document.title());
         }catch(IOException e){
             throw new RuntimeException(e);
         }
-        //print definition of word
+
+        //search for definition of current word & print
         Elements definitions = document.getElementsByClass(WORD_DEF_CLASS);
         for(Element definition : definitions) {
             definition.select("##div.word_4pc--2SZw8.word--C9UPa > div").first();
             System.out.println(definition.text());
         }
-        //print root word of original word searched
+
+        //search for root word of original word searched & print
         Elements roots = document.getElementsByClass(WORD_ROOT_SELECTOR);
         for(Element root : roots){
             root.select("##div.word_4pc--2SZw8.word--C9UPa:nth-of-type(1)");
             System.out.println(root.text());
         }
-        //print root word definition
+
+        //find & print root word definition
         Elements root_defs = document.getElementsByClass(WORD_ROOT_DEF);
         for(Element rdefs : root_defs){
             rdefs.select("##div.word_4pc--2SZw8.word--C9UPa:nth-of-type(1)");
@@ -53,26 +63,5 @@ class WebScrape extends Book {
 
     }
 
-    class Proxy{
-        Connection proxy(String proxyHost, String proxyPort) {
-            return null;
-        }
-    }
-
-
-
-
-
-
-
-
-    /*public void searchPageNum(String pageNum){} //find page number
-
-    public void searchWord(String word){}
-
-    public String searchDefinition(String word){String definition =""; return definition; } //find word definition using web scrape class
-
-    public String searchRoot(String word){String root =""; return root; } //find root word using web scrape class
-    */
 
 }
