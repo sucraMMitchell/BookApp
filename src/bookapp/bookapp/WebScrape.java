@@ -28,7 +28,7 @@ class WebScrape extends Book {
         Document document;
 
         try{
-            //set proxy ip and port
+            //set proxy ip and port number
             document = Jsoup
                        .connect("https://www.etymonline.com/word/" + word)
                        .proxy("127.0.0.1", 8080)
