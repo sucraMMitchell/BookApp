@@ -15,7 +15,3 @@ V
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 M
 src/bookapp/bookapp/Book.java,6\8\6869f008997b9b89659fde1adc555d2251d1e46f
-R
-"src/bookapp/bookapp/WebScrape.java,1\5\15c0d4cf10186db49d6e05821e348f6d0d1f2b2b
-Q
-!src/bookapp/bookapp/Database.java,a\6\a63102ec32e57728fa4a862dc354b690f1762b9a

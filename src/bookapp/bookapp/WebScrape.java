@@ -61,6 +61,12 @@ class WebScrape extends Book {
             System.out.println(rdefs.text());
         }
 
+        Elements image = document.getElementsByClass("image");
+        for(Element img : image){
+            img.select("#word");
+            System.out.println(img);
+        }
+
     }
 
 
