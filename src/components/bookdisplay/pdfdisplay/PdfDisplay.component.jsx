@@ -1,68 +1,60 @@
-import React, { useState } from 'react';
-import { Document, Page,pdfjs } from 'react-pdf';
+import React, {useState} from 'react'
+import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
 
+function PdfDisplay() {
 
-const url =
-"https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf✎ EditSign"
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
-export default function PdfDisplay() {
-	
-pdfjs.GlobalWorkerOptions.workerSrc =
-`//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-const [numPages, setNumPages] = useState(null);
-const [pageNumber, setPageNumber] = useState(1);
+  function onDocumentLoadSuccess({numPages}){
+    setNumPages(numPages);
+    setPageNumber(1);
+  }
 
-/*To Prevent right click on screen*/
-document.addEventListener("contextmenu", (event) => {
-	event.preventDefault();
-});
-	
-/*When document gets loaded successfully*/
-function onDocumentLoadSuccess({ numPages }) {
-	setNumPages(numPages);
-	setPageNumber(1);
-}
+  function changePage(offSet){
+    setPageNumber(prevPageNumber => prevPageNumber + offSet);
+  }
 
-function changePage(offset) {
-	setPageNumber(prevPageNumber => prevPageNumber + offset);
-}
+  function changePageBack(){
+    changePage(-1)
+  }
 
-function previousPage() {
-	changePage(-1);
-}
+  function changePageNext(){
+    changePage(+1)
+  }
 
-function nextPage() {
-	changePage(1);
-}
-
-return (
-	<>
-	<div className="main">
-    <Document
-      file={url}
-      onLoadSuccess={onDocumentLoadSuccess}
-    >
-      <Page pageNumber={pageNumber} />
-    </Document>
+  return (
     <div>
-      <div className="pagec">Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}</div>
-      <div className="buttonc">
-        <button
-          type="button"
-          disabled={pageNumber <= 1}
-          onClick={previousPage}
-          className="Pre"
-        >Previous
-        </button>
-        <button
-          type="button"
-          disabled={pageNumber >= numPages}
-          onClick={nextPage}
-          >Next
-        </button>
-      </div>
-	  </div>
-	</div>
-	</>
-);
+      <header>
+        <Document file="/sample.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+          <Page height="600" pageNumber={pageNumber} />
+        </Document>
+        <p> Page {pageNumber} of {numPages}</p>
+        { pageNumber > 1 && 
+        <button onClick={changePageBack}>Previous Page</button>
+        }
+        {
+          pageNumber < numPages &&
+          <button onClick={changePageNext}>Next Page</button>
+        }
+      </header>
+      <center>
+        <div>
+          <Document file="/sample.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+            {Array.from(
+              new Array(numPages),
+              (el,index) => (
+                <Page 
+                  key={`page_${index+1}`}
+                  pageNumber={index+1}
+                />
+              )
+            )}
+          </Document>
+        </div>
+      </center>
+    </div>
+  );
 }
+
+export default PdfDisplay;
