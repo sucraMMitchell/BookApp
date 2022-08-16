@@ -35,6 +35,7 @@ public class Database {
             rs.close();
             stmt.close();
             conn.close();
+            System.out.println("Connection closed successfully");
         }catch(SQLException se){
             se.printStackTrace();
         }catch(Exception e){
