@@ -1,0 +1,47 @@
+
+`	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+n
+java:S11925"XUse already-defined constant 'WORD_ROOT_SELECTOR' instead of duplicating its value here.(û¹‘»
+o
+java:S1192."TUse already-defined constant 'WORD_DEF_CLASS' instead of duplicating its value here.(ñ –»úÿÿÿÿ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë©û¾ùÿÿÿÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÑä
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÇÕ‰
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(äÉù¶úÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ºö£ıùÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(µºäİüÿÿÿÿ
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ÛÛ§¿úÿÿÿÿ8íæª¨0
+M
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¯ˆèª¨0
+M
+java:S1128
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¯ˆèª¨0
+S
+java:S1128"1Remove this unused import 'org.jsoup.Connection'.(¸Äúÿÿÿÿ8¯ˆèª¨0
+U
+java:S1128"8Remove this unused import 'org.jsoup.Connection.Method'.(õèÖ¶8¯ˆèª¨0
+O
+java:S1068"4Remove this unused "WORD_TITLE_CLASS" private field.(¬×ªßÿÿÿÿÿ
+`	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+n
+java:S11925"XUse already-defined constant 'WORD_ROOT_SELECTOR' instead of duplicating its value here.(û¹‘»
+o
+java:S1192."TUse already-defined constant 'WORD_DEF_CLASS' instead of duplicating its value here.(ñ –»úÿÿÿÿ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë©û¾ùÿÿÿÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÑä
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÇÕ‰
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(äÉù¶úÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ºö£ıùÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(µºäİüÿÿÿÿ
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ÛÛ§¿úÿÿÿÿ8íæª¨0
+M
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¯ˆèª¨0
+M
+java:S1128
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¯ˆèª¨0
+S
+java:S1128"1Remove this unused import 'org.jsoup.Connection'.(¸Äúÿÿÿÿ8¯ˆèª¨0
+U
+java:S1128"8Remove this unused import 'org.jsoup.Connection.Method'.(õèÖ¶8¯ˆèª¨0
+O
+java:S1068"4Remove this unused "WORD_TITLE_CLASS" private field.(¬×ªßÿÿÿÿÿ
